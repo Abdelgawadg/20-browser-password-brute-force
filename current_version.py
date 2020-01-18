@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 import time
 
-
 name = input("enter username here: ")
 year = eval(input("enter grad year here: "))
 start = time.time()
@@ -1199,9 +1198,6 @@ else:
     print("This class is not supported by this program")
     
 
-
-
-
 browser1.close
 browser2.close
 browser3.close
@@ -1222,5 +1218,3 @@ browser17.close
 browser18.close
 browser19.close
 browser20.close
-    
-    
