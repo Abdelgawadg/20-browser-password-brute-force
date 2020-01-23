@@ -1,5 +1,14 @@
 #### Stucknet ####
-Code for the brute forcing of tyler sis, works with the class of 21 and 23
+Code is used for the brute forcing of passwords of raypec tyler sis users who are in the classes of 2021 and 2023.
+
+This is done through a few small oversights.
+The first is that you can find usernames though gmail reducing the amount of characters to be guessed by 3.
+The second is that there is a simple password protocol that is (mostly) consistent.
+The password protocol is somewhat different though different years but they all follow the same scheme.
+The protocol for the class of 21 is "rp21" + 4 random characters, and the freshman class is the same but with "bike" instead.
+This reduces the amount of password possibiliteis
+
+
 
 Run this with the most recent version of python and windows (works with different OS but is done differently).
 You need the selenium library installed (use "pip install selenium" in the windows command prompt).
@@ -14,7 +23,6 @@ The base_code is reused in later versions with some changes to how it works and 
 current_version can be a little confusing but is mostly just the same thing copy and pasted 20 times.
 This is the version of the code that works best and has all the latest features. 
 The goal for this project is to get every/most passwords cracked in less than 30 minutes.
-I know that it is poorly coded and could be done better but its works.
-
+I understand that the project is a bit unpolished and could be optimized, I am still fairly new to programming.
 
 For contact send an email to abdelgawadg@att.net
