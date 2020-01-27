@@ -1,131 +1,133 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from timeit import default_timer as timer
 from selenium import webdriver
 import time
 
+
 name = input("enter username here: ")
 year = eval(input("enter grad year here: "))
-start = time.time()
+start = timer()
 
 
 browser1 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser1.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser1.find_element_by_id("mat-tab-label-0-2")
 student.click()
     
 browser2 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser2.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser2.find_element_by_id("mat-tab-label-0-2")
 student.click()
     
 browser3 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser3.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser3.find_element_by_id("mat-tab-label-0-2")
 student.click()
     
 browser4 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser4.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser4.find_element_by_id("mat-tab-label-0-2")
 student.click()
     
 browser5 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser5.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser5.find_element_by_id("mat-tab-label-0-2")
 student.click()
     
 browser6 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser6.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser6.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser7 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser7.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser7.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser8 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser8.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser8.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser9 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser9.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser9.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser10 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser10.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser10.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser11 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser11.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser11.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser12 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser12.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser12.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser13 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser13.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser13.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser14 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser14.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser14.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser15 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser15.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser15.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser16 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser16.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser16.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser17 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser17.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser17.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser18 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser18.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser18.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser19 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser19.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser19.find_element_by_id("mat-tab-label-0-2")
 student.click()
 
 browser20 = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")
 browser20.get('https://sdm.sisk12.com/RP360x3/login')
-time.sleep(1)
+time.sleep(1.5)
 student = browser20.find_element_by_id("mat-tab-label-0-2")
 student.click()
   
@@ -519,144 +521,124 @@ and browser20.current_url == ("https://sdm.sisk12.com/RP360x3/login"):
         
     if browser1.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num1 = int(num1) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num1).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser2.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num2 = int(num2) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num2).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser3.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num3 = int(num3) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num3).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser4.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num4 = int(num4) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num4).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser5.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num5 = int(num5) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num5).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser6.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num6 = int(num6) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num6).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser7.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num7 = int(num7) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num7).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser8.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num8 = int(num8) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num8).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser9.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num9 = int(num9) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num9).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser10.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num10 = int(num10) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num10).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser11.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num11 = int(num11) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num11).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " minutes to finish")
     if browser12.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num12 = int(num12) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num12).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser13.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num13 = int(num13) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num13).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser14.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num14 = int(num14) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num14).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser15.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num15 = int(num15) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num15).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser16.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num16 = int(num16) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num16).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser17.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num17 = int(num17) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num17).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser18.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num18 = int(num18) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num18).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser19.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num19 = int(num19) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num19).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser20.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num20 = int(num20) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "rp21" + str(num20).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
 
 
         
@@ -1043,139 +1025,124 @@ and browser20.current_url == ("https://sdm.sisk12.com/RP360x3/login"):
 
     if browser1.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num1 = int(num1) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num1).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser2.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num2 = int(num2) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num2).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser3.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num3 = int(num3) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num3).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser4.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num4 = int(num4) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num4).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser5.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num5 = int(num5) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num5).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser6.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num6 = int(num6) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num6).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser7.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num7 = int(num7) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num7).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser8.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num8 = int(num8) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num8).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser9.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num9 = int(num9) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num9).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser10.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num10 = int(num10) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num10).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser11.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num11 = int(num11) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num11).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser12.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num12 = int(num12) - 1
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num12).zfill(4))
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser13.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num13 = int(num13) - 1
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num13).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser14.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num14 = int(num14) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num14).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser15.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num15 = int(num15) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num15).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser16.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num16 = int(num16) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num16).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser17.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num17 = int(num17) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num17).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser18.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num18 = int(num18) - 1
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num18).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser19.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num19 = int(num19) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num19).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete")
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
     if browser20.current_url == ("https://sdm.sisk12.com/RP360x3/student360/studentSummary"):
         num20 = int(num20) - 1
-        end = time.time()
+        end = timer()
         print("The username is " + name)
         print("The password is:" + "bike" + str(num20).zfill(4))
-        total = end - start
-        print("The program took " + total + "sec to complete") 
+        print("The program took " + str(int(end) - int(start)) + " seconds to finish")
 
 
         
@@ -1198,23 +1165,26 @@ else:
     print("This class is not supported by this program")
     
 
-browser1.close
-browser2.close
-browser3.close
-browser4.close
-browser5.close
-browser6.close
-browser7.close
-browser8.close
-browser9.close
-browser10.close
-browser11.close
-browser12.close
-browser13.close
-browser14.close
-browser15.close
-browser16.close
-browser17.close
-browser18.close
-browser19.close
-browser20.close
+
+
+
+browser1.close()
+browser2.close()
+browser3.close()
+browser4.close()
+browser5.close()
+browser6.close()
+browser7.close()
+browser8.close()
+browser9.close()
+browser10.close()
+browser11.close()
+browser12.close()
+browser13.close()
+browser14.close()
+browser15.close()
+browser16.close()
+browser17.close()
+browser18.close()
+browser19.close()
+browser20.close()
