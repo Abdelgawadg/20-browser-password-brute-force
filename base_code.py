@@ -5,7 +5,7 @@ import time#gets the libraries required for functions used in this program
 
 #this program only works with class of 21, later expanded to other classes with the same general code but used differently
 
-browser = webdriver.Chrome(executable_path=r"C:\Users\abdel\Downloads\chromedriver_win32\chromedriver.exe")#sets the webdriver to open the browser
+browser = webdriver.Chrome(executable_path=r"F:\Browser stuff\chromedriver.exe")#sets the webdriver to open the browser
 #replace the executable path with the correct destination on your computer
 browser.get('https://sdm.sisk12.com/RP360x3/login')#opens tyler sis in google chrome
 time.sleep(1)#this is a pause to ensure that the site loads fully
