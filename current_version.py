@@ -6,6 +6,9 @@ from selenium import webdriver
 import time
 
 
+#read base_code before reading this
+
+
 name = input("enter username here: ")
 year = eval(input("enter grad year here: "))
 start = timer()
