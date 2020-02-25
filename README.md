@@ -1,8 +1,8 @@
-#### Stucknet ####
+#### 20 browser password brute forcer ####
 This code is made for btute forcing passwords in a somewhat fast manner.
 This is made to be changed and configured however it is wanted.
 current_version is used for a password when the username is known and it is numbers that needs to be guessed.
-This program was made with a website in mind and does work very well with its limitations.
+This program was made with a website in mind but is mostly proof of concept.
 
 Run this with the most recent version of python and windows (works with different OS but is done differently).
 You need the selenium library installed (use "pip install selenium" in the windows command prompt).
